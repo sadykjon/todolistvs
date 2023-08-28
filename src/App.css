@@ -1,0 +1,51 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .todo-form {
+    display: flex;
+    gap: 10px;
+  }
+  .todo-form input {
+    font-size: 18px;
+  }
+  .todo-form button{
+    font-size: 18px;
+  }
+  
+  .todo-list {
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    background: #666;
+    color: #eee;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  i{
+    cursor: pointer;
+  }
+  .fa-pen:active {
+    color: green;
+  }
+  .fa-trash:active {
+    color: red;
+  }
+  button{
+    cursor: pointer;
+  }
+  button:active {
+    background: #333;
+    color: #eee;
+  }
+  
+  span {
+    letter-spacing: 2px;
+    font-size: 22px;
+  }
